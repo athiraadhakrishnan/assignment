@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before{
+ margin: 0; 
+ padding: 0;  
+}
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;   
+  background-color:gray;
+  color: white;
+}
+
+nav {
+    background-color:black;
+    padding: 1rem 0.75rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav ul li {
+    font-size: large;
+    font-weight: 100;
+    color: darkgoldenrod;
+    text-align: center;
+  }
+  section > div {
+    padding: 5rem 0.75rem;
+  }
+  section > div * {
+    display: inline-block;
+  }
+  .brand {
+     position: sticky;
+     border: 1px solid purple;
+     padding: 1rem 2.5rem;
+     border-radius: 10px;
+     background-color: purple;
+   } 
+  
+  .brand > div {
+   
+    position: sticky;
+    
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+  
+  }
+  
+  
+  
+  .brand > div > img {
+    position: absolute;
+    top:-30px;
+    left:0;
+    right:0;
+    margin-inline: auto;
+    border: 1px solid purple;
+    background-color: purple;
+  }
+  .content {
+    width: 60%;
+  }
+  .content > p {
+    padding-block-end: 2rem;
+    color: white;
+  }
+  
+  
